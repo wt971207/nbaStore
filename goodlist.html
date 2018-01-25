@@ -519,7 +519,7 @@
     function showgoodsList(data){
     	let $morebox=$('#morebox');
     	for(let i=0; i<data.length;i++){
-    		let $divDom=$("<div><a href=''><img src="+data[i].goodsImg+"></a><h5>"+data[i].goodsDesc+"</h5><h4>"+data[i].goodsPrice+"</h4></div>")
+    		let $divDom=$("<div><a href='#'><img src="+data[i].goodsImg+"></a><h5>"+data[i].goodsDesc+"</h5><h4>"+data[i].goodsPrice+"</h4></div>")
     		$morebox.append($divDom);
     	}
     }

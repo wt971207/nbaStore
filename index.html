@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>首页</title>
 	</head>
 	<link rel="stylesheet" type="text/css" href="css/index.css"/>
 	<body>
@@ -11,7 +11,7 @@
 			<div class='header-box'>
 				<div class="header-list">
 					<div class='clear'>
-						<a href=''><b>登录/注册</b>&nbsp;&nbsp;|&nbsp;</a>
+						<a href='login.html'><b>登录/注册</b>&nbsp;&nbsp;|&nbsp;</a>
 						<a href=''>我的账户&nbsp;&nbsp;|</a>
 						<a href=""><img src='img/icon_1.jpg'/></a>
 						<span>0</span>
@@ -23,7 +23,7 @@
 					<a href="#"><img src="img/search.jpg"/></a>
 				</div>
 				<div class='header-logo'>
-					<a href=""><img src="img/logo.jpg"/></a>
+					<a href="index.html"><img src="img/logo.jpg"/></a>
 				</div>
 				<div class='buy-inshop'>
 					<a href="">定制T恤</a>
@@ -36,7 +36,7 @@
 						<a href="" id='head1'>选择球队</a>
 						<a href="" id='head2'><img src="img/nike-logo.jpg"></a>
 						<a href="" id='head3'>品牌</a>
-						<a href="" id='head4'>所有商品</a>
+						<a href="goodlist.html" id='head4'>所有商品</a>
 						<a href="" id='head5'>球衣</a>
 						<a href="" id='head6'>上装</a>
 						<a href="" id='head7'>下装</a>
@@ -411,192 +411,4 @@
 </html>
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src='js/index.js'></script>
-<script type="text/javascript">
-	$(document).ready(function(){	
-
-		$("#head1").bind("mouseenter",function () {
-    			$('#select1').slideDown(50);
-		});
-
-		$("#head1").bind("mouseleave",function () {
-			iTimer = setTimeout(function(){
-				$('#select1').slideUp(2);
-			},50);
-		});
-
-		$("#select1").bind("mouseenter",function () {
-  		clearTimeout(iTimer);
-		});	
-
-		$("#select1").mouseleave(function(){
-			$('#select1').slideUp(300);
-		})
-		
-		
-		$("#head3").bind("mouseenter",function () {
-    		$('#select2').slideDown(50);
-		});
-
-		$("#head3").bind("mouseleave",function () {
-			iTimer = setTimeout(function(){
-				$('#select2').slideUp(2);
-			},50);
-		});
-
-		$("#select2").bind("mouseenter",function () {
-  		clearTimeout(iTimer);
-		});	
-
-		$("#select2").mouseleave(function(){
-			$('#select2').slideUp(300);
-		})
-		
-		
-		$("#head5").bind("mouseenter",function () {
-    		$('#select3').slideDown(50);
-		});
-
-		$("#head5").bind("mouseleave",function () {
-			iTimer = setTimeout(function(){
-				$('#select3').slideUp(2);
-			},50);
-		});
-
-		$("#select3").bind("mouseenter",function () {
-  		clearTimeout(iTimer);
-		});	
-
-		$("#select3").mouseleave(function(){
-			$('#select3').slideUp(300);
-		})
-
-
-		$("#head6").bind("mouseenter",function () {
-    		$('#select4').slideDown(50);
-		});
-		$("#head6").bind("mouseleave",function () {
-			iTimer = setTimeout(function(){
-				$('#select4').slideUp(2);
-			},50);
-		});
-       $("#select4").bind("mouseenter",function () {
-  		clearTimeout(iTimer);
-		});	
-		$("#select4").mouseleave(function(){
-			$('#select4').slideUp(300);
-		})
-		
-		
-		$("#head7").bind("mouseenter",function () {
-    		$('#select5').slideDown(50);
-		});
-
-		$("#head7").bind("mouseleave",function () {
-			iTimer = setTimeout(function(){
-				$('#select5').slideUp(2);
-			},50);
-		});
-
-		$("#select5").bind("mouseenter",function () {
-  			clearTimeout(iTimer);
-		});	
-
-		$("#select5").mouseleave(function(){
-			$('#select5').slideUp(300);
-		})
-		
-		$("#head8").bind("mouseenter",function () {
-    		$('#select6').slideDown(50);
-		});
-
-		$("#head8").bind("mouseleave",function () {
-			iTimer = setTimeout(function(){
-				$('#select6').slideUp(2);
-			},50);
-		});
-
-		$("#select6").bind("mouseenter",function () {
-  			clearTimeout(iTimer);
-		});	
-
-		$("#select6").mouseleave(function(){
-			$('#select6').slideUp(300);
-		})
-		
-		$("#head9").bind("mouseenter",function () {
-    		$('#select7').slideDown(50);
-		});
-
-		$("#head9").bind("mouseleave",function () {
-			iTimer = setTimeout(function(){
-				$('#select7').slideUp(2);
-			},50);
-		});
-
-		$("#select7").bind("mouseenter",function () {
-  			clearTimeout(iTimer);
-		});	
-
-		$("#select7").mouseleave(function(){
-			$('#select7').slideUp(300);
-		})
-		
-		$("#head10").bind("mouseenter",function () {
-    		$('#select8').slideDown(50);
-		});
-
-		$("#head10").bind("mouseleave",function () {
-			iTimer = setTimeout(function(){
-				$('#select8').slideUp(2);
-			},50);
-		});
-
-		$("#select8").bind("mouseenter",function () {
-  			clearTimeout(iTimer);
-		});	
-
-		$("#select8").mouseleave(function(){
-			$('#select8').slideUp(300);
-		})
-		
-		$("#head11").bind("mouseenter",function () {
-    		$('#select9').slideDown(50);
-		});
-
-		$("#head11").bind("mouseleave",function () {
-			iTimer = setTimeout(function(){
-				$('#select9').slideUp(2);
-			},50);
-		});
-
-		$("#select9").bind("mouseenter",function () {
-  			clearTimeout(iTimer);
-		});	
-
-		$("#select9").mouseleave(function(){
-			$('#select9').slideUp(300);
-		})
-				
-		$("#head12").bind("mouseenter",function () {
-    		$('#select10').slideDown(50);
-		});
-
-		$("#head12").bind("mouseleave",function () {
-			iTimer = setTimeout(function(){
-				$('#select10').slideUp(2);
-			},50);
-		});
-
-		$("#select10").bind("mouseenter",function () {
-  			clearTimeout(iTimer);
-		});	
-
-		$("#select10").mouseleave(function(){
-			$('#select10').slideUp(300);
-		})
-	});
-
-
-
-
-</script>
+<script type="text/javascript" src='js/select.js'></script>
