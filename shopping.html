@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/shopping.css"/>
+	<body style="height: 2000px;">
+<!--header-->
+		<div class="header">
+			<div class='header-box'>
+				<div class="header-list">
+					<div class='clear'>
+						<a href='login.html'><b>登录/注册</b>&nbsp;&nbsp;|&nbsp;</a>
+						<a href=''>我的账户&nbsp;&nbsp;|</a>
+						<a href=""><img src='img/icon_1.jpg'/></a>
+						<span>0</span>
+						<a href="">|&nbsp;<img src='img/icon_2.jpg'/>&nbsp;&nbsp;在线客服</a>
+					</div>
+				</div>
+				<div class='form-input'>
+					<input id="" type="text" placeholder="球队同款出场服" class="c-search-con ">
+					<a href="#"><img src="img/search.jpg"/></a>
+				</div>
+				<div class='header-logo'>
+					<a href="index.html"><img src="img/logo.jpg"/></a>
+				</div>
+				<div class='buy-inshop'>
+					<a href="">定制T恤</a>
+					<a href="">定制球衣</a>
+				</div>
+			</div>
+			<div class="nav" id='ns'>
+				<div class="head">
+					<div class="head-left">
+						<a href="" id='head1'>选择球队</a>
+						<a href="" id='head2'><img src="img/nike-logo.jpg"></a>
+						<a href="" id='head3'>品牌</a>
+						<a href="goodlist.html" id='head4'>所有商品</a>
+						<a href="" id='head5'>球衣</a>
+						<a href="" id='head6'>上装</a>
+						<a href="" id='head7'>下装</a>
+						<a href="" id='head8'>女子</a>
+						<a href="" id='head9'>鞋类</a>
+						<a href="" id='head10'>篮球</a>
+						<a href="" id='head11'>配件</a>
+						<a href="" id='head12'>儿童</a>
+						<div id='select1' style="display: none;">
+							<div class="sa"></div>
+							<div class='select1-left'>
+								<h3>东部球队</h3>
+								<a href="">迈阿密热火</a>
+								<a href="">奥兰多魔术</a>
+								<a href="">亚特兰大老鹰</a>
+								<a href="">华盛顿奇才</a>
+								<a href="">夏洛特黄蜂</a>
+								<a href="">底斯律活塞</a>
+								<a href="">印第安纳步行者</a>
+								<a href="">克利夫兰骑士</a>
+								<a href="">芝加哥公牛</a>
+								<a href="">密尔沃基雄鹿</a>
+								<a href="">波士顿凯尔特人</a>
+								<a href="">费城76人</a>
+								<a href="">纽约尼克斯</a>
+							</div>
+						<div class='select1-right'>
+								<h3>西部球队</h3>
+								<a href="">圣安东尼奥马刺</a>
+								<a href="">孟菲斯灰熊</a>
+								<a href="">达拉斯独行侠</a>
+								<a href="">休斯顿火箭</a>
+								<a href="">新奥良鹈鹕</a>
+								<a href="">明尼苏达森林狼</a>
+								<a href="">丹佛掘金</a>
+								<a href="">犹他爵士</a>
+								<a href="">波特兰开拓者</a>
+								<a href="">奥克拉荷马雷霆</a>
+								<a href="">萨克拉门托国王</a>
+								<a href="">菲尼克斯太阳</a>
+								<a href="">洛杉矶湖人</a>
+							</div>
+						</div>
+						<div id='select2' style="display: none;">
+							<div class="sa2"></div>
+								<a href="">NBA</a>
+								<a href="">NIKE</a>
+								<a href="">MITCHELL&NESS</a>
+								<a href="">SPALDING篮球</a>
+								<a href="">NEW ERA</a>
+								<a href="">STANCE</a>
+								<a href="">ENTERBAY</a>
+						</div>
+						<div id='select3' style="display: none;">
+							<div class="sa3"></div>
+								<a href="">Swingman</a>
+								<a href="">Hardwood Classics</a>
+								<a href="">Replica</a>
+								<a href="">Authentic</a>
+						</div>
+						<div id='select4' style="display: none;">
+							<div class="sa4"></div>
+								<a href="">T恤</a>
+								<a href="">卫衣</a>
+								<a href="">夹克</a>
+								<a href="">紧身衣</a>
+								<a href="">羽绒服</a>
+						</div>
+						<div id='select5' style="display:none;">
+						<div class="sa5"></div>
+								<a href="">球裤</a>
+								<a href="">长裤</a>
+						</div>
+						<div id='select6' style="display: none;">
+						<div class="sa6"></div>
+								<a href="">T恤</a>
+								<a href="">篮球</a>
+								<a href="">卫衣</a>
+								<a href="">夹克</a>
+								<a href="">运动长裤</a>
+								<a href="">休闲鞋</a>
+								<a href="">球鞋</a>
+						</div>
+						<div id='select7'style="display: none;">
+						<div class="sa7"></div>
+								<a href="">篮球鞋</a>
+								<a href="">休闲鞋</a>
+								<a href="">UI篮球鞋</a>
+						</div>
+						<div id='select8'style="display: none;">
+						<div class="sa8"></div>
+								<a href="">PU篮球</a>
+								<a href="">橡胶篮球</a>
+								<a href="">真皮篮球</a>
+						</div>
+						<div id='select9'style="display: none;">
+						<div class="sa9"></div>
+								<a href="">手环</a>
+								<a href="">内裤</a>
+								<a href="">袜子</a>
+								<a href="">运动护具</a>
+								<a href="">护腕</a>
+								<a href="">毛巾</a>
+								<a href="">手机壳</a>
+								<a href="">玩偶公仔</a>
+								<a href="">帽子</a>
+								<a href="">背包</a>
+								<a href="">其他</a>
+						</div>
+						<div id='select10'style="display: none;">
+						<div class="sa10"></div>
+								<a href="">球衣</a>
+								<a href="">T恤</a>
+								<a href="">裤装</a>
+								<a href="">外套</a>
+								<a href="">卫衣</a>
+								<a href="">篮球</a>
+						</div>
+					</div>
+					<div class="head-right"  id="Right" style="display: none;">
+						<a href=""><img src="img/header-icon1.jpg"/><sapn class='zero'>0</sapn>&nbsp;|</a>
+						<a href=""><img src="img/header-icon2.jpg"/></a>
+						<input id="search" type="text" placeholder="球队同款出场服">
+						<a href="#"><img src="img/search-icon.png"/></a>
+					</div>
+				</div>				
+			</div>
+		</div>
+<!--导航-->
+	<div class="dh">
+		<img src="img/nav.jpg"/>
+	</div>
+<!--购物车详情-->
+<div class="inshop">
+	<div class="shop-title">购物车</div>
+	<div class="shop-btn">
+		<div class="checkAll">
+			<div class="checkAll-btn"></div>
+			<div class="checkAll-btn2"></div>
+			<a href="javascript:;" class="check1" style="color: #000; margin-left: 60px; margin-right:65px;line-height: 50px;">全选</a>
+			<a href="javascript:;" class="check" style="color: #000;line-height: 50px;">删除</a>
+		</div>
+	</div>
+	<div class="shopping-nav"></div>
+	<div class="shop-goods">
+		<div class="goods-btn">
+			<div class="all"></div>
+			<div class="all2"></div>
+		</div>
+		<div class="goods-img">
+			<img src="img/shopping-img.jpg" />
+		</div>
+		<div class="shop-detail">
+			<div class="produce">
+				<p>NBA 金州勇士版 NIKE Zoom KD10 EP 男子篮球鞋</p>
+				<span>商品：NNKA177280000103</span>
+				<span>尺寸：9.5</span>
+				<span>颜色：图片色</span>
+			</div>
+			<div class="price">
+				<p>¥<span id='pirce1'>1299.00</span></p>
+			</div>
+			<div class="num">
+				<div class="btn">
+					<a href="javascript:;"><img src="img/add.jpg" id="jian"/></a>
+					<div id="number">1</div>
+					<a href="javascript:;"><img src="img/jia.jpg" id="jia"/></a>
+				</div>
+			</div>
+			<div class="add">
+				<p>¥<span id="money1">1299</span></p>
+			</div>
+			<div class="delete">
+				<p>×</p>
+			</div>
+		</div>
+	</div>
+	<div class="checkAll-bto">
+		<div class="bto-btn"></div>
+		<div class="bto-btn2"></div>
+		<a href="javascript:;" class="check1" style="color: #000; margin-left: 60px; margin-right:65px;line-height: 50px;">全选</a>
+		<a href="javascript:;" class="check" style="color: #000;line-height: 50px;">删除</a>
+	</div>
+	<div class="shop-buy">
+		<div class='dingdan'>
+			<span class="addpirce">订单总价</span>
+			<span class="addmoney" >¥<span id="money2">1299</span></span>
+		</div>
+		<div class="shop-del">
+			<div class='shop-del-inp'>
+			<input type="button" value="结算" />
+			<input type="button" value="继续购物" class="continue"/>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src='js/index.js'></script>
+<script type="text/javascript" src='js/select.js'></script>
+<script>
+	//全选
+	$('.checkAll div').click(function(){
+		$('.checkAll div').toggle()
+		$('.goods-btn div').toggle();
+		$('.checkAll-bto div').toggle();
+	})
+	$('.goods-btn div').click(function(){
+		$('.checkAll div').toggle()
+		$('.goods-btn div').toggle();
+		$('.checkAll-bto div').toggle();
+	})
+	$('.checkAll-bto div').click(function(){
+		$('.checkAll div').toggle()
+		$('.goods-btn div').toggle();
+		$('.checkAll-bto div').toggle();
+	})
+	
+	
+$("#jia").click(function(){
+	var ord=$('#number').html();
+	ord++;
+	if(ord>9){
+		ord=9;
+	}else{
+		var pirce1=$('#pirce1').html();
+		var pirce2=$('#money2').html();
+		var addpirce1=ord*pirce1;
+		$("#money1").html(addpirce1);
+		$("#money2").html(addpirce1);
+		$("#number").html(ord);
+	}
+})
+$("#jian").click(function(){
+	var ord=$('#number').html();
+	ord--;
+	if(ord<1){
+		ord=1;
+	}else{
+		var pirce1=$('#pirce1').html();
+		var pirce2=$('#pirce2').html();
+		var addpirce1=ord*pirce1;
+		$("#money1").html(addpirce1);
+		$("#money2").html(addpirce1);
+		$("#number").html(ord);
+	}
+	
+})
+
+</script>
