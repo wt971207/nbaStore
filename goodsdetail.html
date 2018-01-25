@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/goodsdetail.css"/>
+	<body style="height: 1000px;">
+<!--header-->
+		<div class="header">
+			<div class='header-box'>
+				<div class="header-list">
+					<div class='clear'>
+						<a href='login.html'><b>登录/注册</b>&nbsp;&nbsp;|&nbsp;</a>
+						<a href=''>我的账户&nbsp;&nbsp;|</a>
+						<a href=""><img src='img/icon_1.jpg'/></a>
+						<span>0</span>
+						<a href="">|&nbsp;<img src='img/icon_2.jpg'/>&nbsp;&nbsp;在线客服</a>
+					</div>
+				</div>
+				<div class='form-input'>
+					<input id="" type="text" placeholder="球队同款出场服" class="c-search-con ">
+					<a href="#"><img src="img/search.jpg"/></a>
+				</div>
+				<div class='header-logo'>
+					<a href="index.html"><img src="img/logo.jpg"/></a>
+				</div>
+				<div class='buy-inshop'>
+					<a href="">定制T恤</a>
+					<a href="">定制球衣</a>
+				</div>
+			</div>
+			<div class="nav" id='ns'>
+				<div class="head">
+					<div class="head-left">
+						<a href="" id='head1'>选择球队</a>
+						<a href="" id='head2'><img src="img/nike-logo.jpg"></a>
+						<a href="" id='head3'>品牌</a>
+						<a href="" id='head4'>所有商品</a>
+						<a href="" id='head5'>球衣</a>
+						<a href="" id='head6'>上装</a>
+						<a href="" id='head7'>下装</a>
+						<a href="" id='head8'>女子</a>
+						<a href="" id='head9'>鞋类</a>
+						<a href="" id='head10'>篮球</a>
+						<a href="" id='head11'>配件</a>
+						<a href="" id='head12'>儿童</a>
+						<div id='select1' style="display: none;">
+							<div class="sa"></div>
+							<div class='select1-left'>
+								<h3>东部球队</h3>
+								<a href="">迈阿密热火</a>
+								<a href="">奥兰多魔术</a>
+								<a href="">亚特兰大老鹰</a>
+								<a href="">华盛顿奇才</a>
+								<a href="">夏洛特黄蜂</a>
+								<a href="">底斯律活塞</a>
+								<a href="">印第安纳步行者</a>
+								<a href="">克利夫兰骑士</a>
+								<a href="">芝加哥公牛</a>
+								<a href="">密尔沃基雄鹿</a>
+								<a href="">波士顿凯尔特人</a>
+								<a href="">费城76人</a>
+								<a href="">纽约尼克斯</a>
+							</div>
+						<div class='select1-right'>
+								<h3>西部球队</h3>
+								<a href="">圣安东尼奥马刺</a>
+								<a href="">孟菲斯灰熊</a>
+								<a href="">达拉斯独行侠</a>
+								<a href="">休斯顿火箭</a>
+								<a href="">新奥良鹈鹕</a>
+								<a href="">明尼苏达森林狼</a>
+								<a href="">丹佛掘金</a>
+								<a href="">犹他爵士</a>
+								<a href="">波特兰开拓者</a>
+								<a href="">奥克拉荷马雷霆</a>
+								<a href="">萨克拉门托国王</a>
+								<a href="">菲尼克斯太阳</a>
+								<a href="">洛杉矶湖人</a>
+							</div>
+						</div>
+						<div id='select2' style="display: none;">
+							<div class="sa2"></div>
+								<a href="">NBA</a>
+								<a href="">NIKE</a>
+								<a href="">MITCHELL&NESS</a>
+								<a href="">SPALDING篮球</a>
+								<a href="">NEW ERA</a>
+								<a href="">STANCE</a>
+								<a href="">ENTERBAY</a>
+						</div>
+						<div id='select3' style="display: none;">
+							<div class="sa3"></div>
+								<a href="">Swingman</a>
+								<a href="">Hardwood Classics</a>
+								<a href="">Replica</a>
+								<a href="">Authentic</a>
+						</div>
+						<div id='select4' style="display: none;">
+							<div class="sa4"></div>
+								<a href="">T恤</a>
+								<a href="">卫衣</a>
+								<a href="">夹克</a>
+								<a href="">紧身衣</a>
+								<a href="">羽绒服</a>
+						</div>
+						<div id='select5' style="display:none;">
+						<div class="sa5"></div>
+								<a href="">球裤</a>
+								<a href="">长裤</a>
+						</div>
+						<div id='select6' style="display: none;">
+						<div class="sa6"></div>
+								<a href="">T恤</a>
+								<a href="">篮球</a>
+								<a href="">卫衣</a>
+								<a href="">夹克</a>
+								<a href="">运动长裤</a>
+								<a href="">休闲鞋</a>
+								<a href="">球鞋</a>
+						</div>
+						<div id='select7'style="display: none;">
+						<div class="sa7"></div>
+								<a href="">篮球鞋</a>
+								<a href="">休闲鞋</a>
+								<a href="">UI篮球鞋</a>
+						</div>
+						<div id='select8'style="display: none;">
+						<div class="sa8"></div>
+								<a href="">PU篮球</a>
+								<a href="">橡胶篮球</a>
+								<a href="">真皮篮球</a>
+						</div>
+						<div id='select9'style="display: none;">
+						<div class="sa9"></div>
+								<a href="">手环</a>
+								<a href="">内裤</a>
+								<a href="">袜子</a>
+								<a href="">运动护具</a>
+								<a href="">护腕</a>
+								<a href="">毛巾</a>
+								<a href="">手机壳</a>
+								<a href="">玩偶公仔</a>
+								<a href="">帽子</a>
+								<a href="">背包</a>
+								<a href="">其他</a>
+						</div>
+						<div id='select10'style="display: none;">
+						<div class="sa10"></div>
+								<a href="">球衣</a>
+								<a href="">T恤</a>
+								<a href="">裤装</a>
+								<a href="">外套</a>
+								<a href="">卫衣</a>
+								<a href="">篮球</a>
+						</div>
+					</div>
+					<div class="head-right"  id="Right" style="display: none;">
+						<a href=""><img src="img/header-icon1.jpg"/><sapn class='zero'>0</sapn>&nbsp;|</a>
+						<a href=""><img src="img/header-icon2.jpg"/></a>
+						<input id="search" type="text" placeholder="球队同款出场服">
+						<a href="#"><img src="img/search-icon.png"/></a>
+					</div>
+				</div>				
+			</div>
+		</div>
+<!--导航-->
+	<div class="dh">
+		<img src="img/nav.jpg"/>
+	</div>
+<!--商品详情-->
+	<p>上装 /卫衣</p>
+	<div class="detail">
+		<div class="detail-left">
+			<div class="imgs-list">
+				<span id="top"></span>
+				<span id="bottom"></span>
+				<div id="imgs">
+					<a href="javascript:;"><img src="img/smalldetail1.jpg"/></a>
+					<a href="javascript:;"><img src="img/smalldetail2.jpg"/></a>
+					<a href="javascript:;"><img src="img/smalldetail3.jpg"/></a>
+					<a href="javascript:;"><img src="img/smalldetail4.jpg"/></a>
+				</div>
+			</div>
+			<div id="box">
+			</div>
+		</div>
+		<div class="detail-right">
+			<span>商品编码：NBHB17610030044</span>
+			<h1>NBA 火箭队 哈登 手势系列连帽卫衣</h1>
+			<p class="right-price">¥369.00</p>
+			<div class="right-size">
+				<div class="color">
+					<span>颜色：</span>
+					<a href="javascript:;"><div class="yanse b"></div></a>					
+				</div>
+				<p class="check c">请选择颜色</p>
+				<div class="size">
+					<span>尺寸：</span>
+					<div class="chicun">S</div>
+					<div class="chicun"style="width:28px; padding-left: 12px;">M</div>
+					<div class="chicun">X</div>
+					<div class="chicun"style="width:30px; padding-left: 10px;">XL</div>
+					<div class="chicun" style="width:32px; padding-left: 8px;">2XL</div>
+					<a href="javascript:;" id="look">查看尺寸表</a>
+				</div>
+				<p class="checkc">请选择尺寸</p>
+				<div class="num">
+					<span>数量:</span>
+					<div class="btn">
+						<a href="javascript:;"><img src="img/add.jpg" id="jian"/></a>
+						<div id="number">1</div>
+						<a href="javascript:;"><img src="img/jia.jpg" id="jia"/></a>
+					</div>
+				</div>
+					<a href="" class="buy">立即购买</a>
+					<a href="" class="join">加入购物车</a>
+				<div class="dream">
+					<a href="">加入我的心愿单</a>
+					<p>价格说明<br/>
+					划线价格：划线的价格可能是商品的专柜价吊牌价或正品零售价指导价或该商品的曾经展示过的销售价等，仅供您参考。<br />
+					未划线价格：未划线的价格是商品在本平台上的销售标价，具体的成交价格可能因顾客使用优惠券等情况发生变化，最终以订单结算页价格为准。
+					<br/>（*此说明仅当出现价格比较时有效）。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<h3>商品描述</h3>
+		<p style="margin-left: 0px; font-size: 14px;"><b>火箭队手势系列连帽卫衣</b></p>
+		<p style="margin-left: 0px;">产品设计理念</p>
+		<ul style="padding-left: 40px; font-size: 12px;">
+			<li style="margin-top:5px;">一款运动休闲风十足的连帽套头卫衣</li>
+			<li>基本毛圈布面料，舒适耐穿</li>
+			<li>领部半开拉链连帽设计，趣味便捷</li>
+		</ul>
+		<p style="margin-left: 0px;">其他细节</p>
+		<ul style="padding-left: 40px; font-size: 12px;">
+			<li style="margin-top:5px;">前片贴袋设计，胸前和后背logo印花设计，精致个性</li>
+			<li>面料：80%棉20%聚酯纤维</li>
+		</ul>
+	</div>
+	<div id="zzc">
+	</div>
+	<div id="reset">
+    	<span id="close">x</span>
+    	<img src="img/size.jpg"/>
+    	<a href="javascript:;" class='go'>登录</a>
+    </div>
+<!--footer-->
+<div class="footer">
+	<div class="footer-top">
+		<div class="footer-img">
+			<a><img src="img/logo_cn.png"/></a>
+		</div>
+		<div class="footer-sub">
+			<ul style="list-style: none;">
+				<li><a href="">登录注册</a></li>
+				<li><a href="">说出你想要的</a></li>
+				<li><a href="">门店位置</a></li>
+				<li><a href="">帮助</a></li>
+			</ul>
+		</div>
+		<div class="footer-check">
+			<ul  style="list-style: none;">
+				<li>
+					<a href="">扫码关注官方微信</a>
+				</li>
+				<li>
+					<a href=""><img src="img/cheakMa.jpg" id='cheak'/></a>
+				</li> 
+				<li>
+					<a href="">扫码下载NBA官方APP</a>
+				</li>
+				<li>
+					<a href=""><img src="img/cheakMa.jpg" id="cheak1"/></a>
+				</li> 
+			</ul>
+			<div id='img1'>
+				<div class="san"></div>
+				<img src="img/footer-wechat.jpg"/>
+			</div>
+			<div id='img2'>
+				<div class="san"></div>
+				<img src="img/footer-app.png"/>
+			</div>
+		</div>
+		<div class="footer-call">
+			<ul  style="list-style: none;">
+				<li><a href="">联系我们</a></li>
+				<li><a href=""><img src="img/footer-icon1.jpg" />service@nbastore.cn</a></li> 
+				<li><a href=""><img src="img/footer-icon2.jpg" />400-0066-802（9:00 – 22:00）</a></li>
+				<li><a href=""><img src="img/footer-icon3.jpg" />在线客服（9:00 – 22:00）</a></li> 
+				<li><a href=""><img src="img/footer-icon4.jpg" />NBASTORE官方微博</a></li> 
+			</ul>
+		</div>
+	</div>
+	<hr/>
+		<a href="" class='ban'>沪ICP备 14013659-2号&nbsp;&nbsp;&nbsp;&nbsp;使用条款&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;隐私政策 &nbsp;&nbsp;&nbsp;&nbsp;退换货政策</a>
+		<a href="" class="con"><img src="img/icon1.png"/>沪公网安备 31010802001463号</a>
+		<p>©2017 NBA Media Ventures, LLC.保留所有权利。NBAStore.com.cn/NBAStore.cn上的任何部分都不得以任何形式被复制、再传播，或篡改。</p>
+		<p>欢迎您使用NBA中国官方旗舰店网站！ NBA中国官方旗舰店网站由NBA体育文化发展(北京)有限责任公司委托上海枫泊电子商务有限公司进行运营和维护。</p>
+</div>	
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src='js/index.js'></script>
+<script type="text/javascript" src='js/select.js'></script>
+<script type="text/javascript" src='js/goodsdetail.js'></script>
+<script>
+$(".yanse").click(function(){
+	$(".yanse").toggleClass('b');
+	$(".check").toggleClass('c');
+})
+$(".size .chicun").click(function(){
+	$(this).toggleClass('b').siblings('.chicun').removeClass('b');
+	if($(this).css('borderColor')==$('.b').css('borderColor')){
+		$(".checkc").addClass('d');	
+	}else{
+		
+		$(".checkc").removeClass('d');	
+	}
+})
+$("#jia").click(function(){
+	var ord=document.getElementById('number').innerHTML;
+	ord++;
+	document.getElementById('number').innerHTML=ord;
+	if(ord>=10){
+	document.getElementById('number').innerHTML=10;
+	}
+})
+$("#jian").click(function(){
+	var ord=document.getElementById('number').innerHTML;
+	ord--;
+	document.getElementById('number').innerHTML=ord;
+	if(ord<=1){
+		document.getElementById('number').innerHTML=1;
+	}
+})
+$('#look').click(function(){
+	$('#reset').css('display','block');
+	$('#zzc').css('display','block');
+})
+$('#close').click(function(){
+	$('#reset').css('display','none');
+	$('#zzc').css('display','none');
+})
+$('.go').click(function(){
+	$('#reset').css('display','none');
+	$('#zzc').css('display','none');
+})
+</script>
